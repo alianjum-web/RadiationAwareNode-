@@ -1,0 +1,53 @@
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# PlatformIO / Arduino build artifacts
+.pio/
+.build/
+*.elf
+*.hex
+*.bin
+
+# KiCad temporary files
+*.bak
+*.cache
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.pro
+*.net
+*.tmp
+
+# Data files (optional: large raw datasets, can track small processed datasets)
+data/raw/
+*.csv
+*.xls
+*.xlsx
+
+# Docker (if used)
+docker-compose.override.yml
+
+# Miscellaneous OS files
+*.swp
+*.swo
+*.swn
